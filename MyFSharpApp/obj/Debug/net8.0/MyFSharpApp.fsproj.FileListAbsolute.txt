@@ -1,0 +1,2 @@
+/Users/bidhanshrestha/Desktop/my_project/MyFSharpApp/obj/Debug/net8.0/MyFSharpApp.AssemblyInfoInputs.cache
+/Users/bidhanshrestha/Desktop/my_project/MyFSharpApp/obj/Debug/net8.0/MyFSharpApp.AssemblyInfo.fs

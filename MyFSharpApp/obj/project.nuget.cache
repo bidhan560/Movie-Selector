@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "W8i3b8mkYaQO/PzlV9APQdWQEDRT+QWvgztf87IK8gRALXimGBt7XDKroTxF0TE+4UZlGltA6Yx13d/MPoU1Pg==",
+  "success": true,
+  "projectFilePath": "/Users/bidhanshrestha/Desktop/my_project/MyFSharpApp/MyFSharpApp.fsproj",
+  "expectedPackageFiles": [
+    "/Users/bidhanshrestha/.nuget/packages/fsharp.core/8.0.100/fsharp.core.8.0.100.nupkg.sha512"
+  ],
+  "logs": []
+}
