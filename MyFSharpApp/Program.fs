@@ -34,3 +34,17 @@ let probableOscarWinners =
     moviesList
     |> List.filter (fun movie -> movie.IMDBRating > 7.4)
 
+let convertRunLengthToHours (movie: Movie) =
+    let hours = movie.RunLength / 60
+    let minutes = movie.RunLength % 60
+    sprintf "%dh %02dmin" hours minutes
+
+let runLengthsInHours =
+    probableOscarWinners
+    |> List.map convertRunLengthToHours
+
+printfn "Probable Oscar Winning Movies: "
+probableOscarWinners |> List.iter (fun movie -> printfn "%s" movie.Name)
+
+printfn "\nMovie Lengths in Hours and Minutes: "
+runLengthsInHours |> List.iter (printfn "%s")
