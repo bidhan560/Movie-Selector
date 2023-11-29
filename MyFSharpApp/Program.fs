@@ -5,3 +5,8 @@
     | Comedy
     | Fantasy
     | Sport
+
+type Director = {
+    Name: string
+    Movies: int
+}
