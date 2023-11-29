@@ -30,4 +30,7 @@ let moviesList : Movie list = [
     {Name = "Nightmare Alley"; RunLength = 150; Genre = Thriller; Director = {Name = "Guillermo Del Toro"; Movies = 22}; IMDBRating = 7.1}
 ]
 
+let probableOscarWinners =
+    moviesList
+    |> List.filter (fun movie -> movie.IMDBRating > 7.4)
 
